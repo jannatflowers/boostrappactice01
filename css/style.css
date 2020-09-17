@@ -1,0 +1,79 @@
+
+
+/*font-family: 'Bad Script', cursive;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3{
+	font-family: 'Playfair Display', serif;
+}
+img{
+	width: 100%;
+}
+/*header start*/
+header{
+	margin: 0;
+}
+.headlogo{
+	width:33%;	
+}
+.headlogo h1::first-letter{
+	color: #d5159c;
+}
+.headlogo h1 span{
+color: #d5159c;
+}
+.nav-link{
+	color: #d5159c;
+font-size: 18px;
+}
+/*header end*/
+/*banner start*/
+.banner {
+    background-image: url(../images/banner3.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner2 {
+    background: #0000004f;
+    margin-top: 127px;
+    color: #f0e9e9;
+}
+.bannerbtn{
+	background-color: #d5159c;
+	color: #fff;
+}
+.newsicon{
+	font-size: 50px;
+	color: #d5159c;
+}
+.heading{
+	color: #d5159c;
+}
+/*banner end*/
+.protfolio{
+background-image: url(../images/banner2.jpg);
+    height: 450px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.service {
+    background: #80808021;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sevicetext{
+	    padding-top: 20px;
+    padding-bottom: 11px;
+
+}
+footer{
+	background-color: #d5159c;
+}
